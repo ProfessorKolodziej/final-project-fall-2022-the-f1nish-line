@@ -1,4 +1,4 @@
-# Final Project (Replace with your project name)
+# Formula 1 Info Website
 
 ## Description
 
