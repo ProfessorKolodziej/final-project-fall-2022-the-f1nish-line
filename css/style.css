@@ -38,6 +38,10 @@ body {
 	font-family: 'Oxanium', sans-serif;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .main-page {
 	display: grid;
 	border: 5px solid blue;
@@ -154,11 +158,11 @@ h2::after {
 	grid-gap: 5%;
 }
 
-.drivers-scrollpane div {
+/*.drivers-scrollpane div {
 	display: inline-block;
 	height: auto;
 	width: auto;
-}
+}*/
 
 h3 {
 	text-align: center;
