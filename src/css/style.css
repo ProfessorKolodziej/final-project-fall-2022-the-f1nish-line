@@ -29,6 +29,11 @@ to help you out.
 	src: url(https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap);
 }
 
+img {
+	display: block;
+	max-width: 100%;
+}
+
 body {
 	margin-left: 5%;
 	margin-right: 0%;
@@ -46,15 +51,23 @@ body {
 	object-fit: contain;
 }
 
-.right-nav {
-	border: 5px solid blue;
-	background-color: #FF1801;
-	overflow-x: hidden;
+.container {
+	width: 200%;
+	height: 100vh;
+}
+
+.content {
+	width: 100%;
+	height: 400vh;
+}
+
+.right-nav-bar {
+	width: 400px;
+	height: auto;
 	position: fixed;
-	right: 0;
-	top: 0;
-	height: 100%;
-	padding: 0.5%;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
 }
 
 .img-nav {
@@ -267,6 +280,241 @@ h4 {
 	width: auto;
 	border: 5px solid red;
 	display: block;
+}
+
+.map-section {
+	position: relative;
+}
+
+.austin-title {
+	font-size: 55px;
+}
+
+.img-flag-austin {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	top: 265px;
+	left: 40px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.austin-list {
+	grid-row: span 2;
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
+}
+
+.monaco-title {
+	font-size: 55px;
+}
+
+.img-flag-monaco {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	Top: 245px;
+	left: 450px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.monaco-list {
+	grid-row: span 2;
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
+}
+
+.abudhabi-title {
+	font-size: 55px;
+}
+
+.img-flag-abudhabi {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	top: 330px;
+	right: 490px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.abudhabi-list {
+	grid-row: span2;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
+}
+
+.japan-title {
+	font-size: 55px;
+}
+
+.img-flag-japan {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	top: 265px;
+	right: 150px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.japan-list {
+	grid-row: span 2;
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
+}
+
+.brazil-title {
+	font-size: 55px;
+}
+
+.img-flag-brazil {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	bottom: 220px;
+	left: 290px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.brazil-list {
+	grid-row: span 2;
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
+}
+
+.canada-title {
+	font-size: 55px;
+}
+
+.img-flag-canada {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	top: 200px;
+	left: 150px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.canada-list {
+	grid-row: span 2;
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
+}
+
+.baku-title {
+	font-size: 55px;
+}
+
+.img-flag-baku {
+	max-width: 50px;
+	max-height: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	top: 270px;
+	right: 400px;
+}
+
+.grid-tooltip {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.baku-list {
+	grid-row: span 2;
+	font-size: 40px;
+	line-height: 1.5em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: grid;
 }
 
 .finish-flag {
