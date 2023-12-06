@@ -5,3 +5,8 @@
 // - Do not use onclick - use addEventListener instead
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
+const teamsSection = document.getElementById("teams-scrollpane");
+teamsSection.scrollTo(140, 0);
+
+const driversSection = document.getElementById("drivers-scrollpane");
+driversSection.scrollTo(140, 0);
