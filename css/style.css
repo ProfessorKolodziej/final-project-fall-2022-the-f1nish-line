@@ -29,11 +29,6 @@ to help you out.
 	src: url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
 }
 
-img {
-	display: block;
-	max-width: 100%;
-}
-
 body {
 	margin-left: 5%;
 	margin-right: 5%;
@@ -632,6 +627,11 @@ h4 {
 
 .map-section {
 	position: relative;
+}
+
+.map-section img {
+	display: block;
+	max-width: 100%;
 }
 
 .austin-title {
