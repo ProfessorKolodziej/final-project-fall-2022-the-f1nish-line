@@ -20,3 +20,8 @@ function showOverlay(event) {
         overlay.classList.toggle('show');
     }
 }
+const teamsSection = document.getElementById("teams-scrollpane");
+teamsSection.scrollTo(140, 0);
+
+const driversSection = document.getElementById("drivers-scrollpane");
+driversSection.scrollTo(140, 0);
